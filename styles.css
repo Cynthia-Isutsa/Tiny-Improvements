@@ -1,0 +1,10 @@
+:root{
+    background:#f1f8fc;
+
+}
+*,*::before,*::after{
+    padding:0;
+    margin:0;
+    background-color: var;
+
+}
