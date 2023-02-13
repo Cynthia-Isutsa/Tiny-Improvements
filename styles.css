@@ -7,6 +7,7 @@
     --button: rgb(216, 34, 34);
     --hover: #363d41;
     --white:#ffffff;
+    --background2:rgb(236, 235, 235);
 
 }
 *,*::before,*::after{
@@ -110,7 +111,6 @@ color:var(--white);
 font-weight: 600;
 border-radius: 10px;
 padding: 12px;
-font-family: 'Roboto Mono', monospace;
 box-shadow: 0 0 2px rgba(0, 0, 0, 0.05);
 margin: 70px 0 0 70px;
 }
@@ -121,7 +121,8 @@ margin: 70px 0 0 70px;
     border:1px solid var(--white);
     padding: 15px;
     background-color: var(--background1);
-   
+    
+    
 
 }
 .bar p{
@@ -130,11 +131,73 @@ margin: 70px 0 0 70px;
     color:var(--white);
     text-align: center;
 }
-.Blog{
-    align-items: center;
+.blogArea{
+    background-color: var(--background2)
+}
+.blog{
+    text-align: center;
     max-width: 81rem;
-    margin:20 auto;
+    margin:50px auto;
     padding: 0 50px;
     z-index: 10;
+    
+}
+
+
+.blogArea .blog h1{
+    font-size: 2.5rem;
+    color: var(--darkOne);
+    text-transform: capitalize;
+    line-height: 1.4;
+    padding: 30px 0;
+
+}
+
+.blogArea .blog .btn{
+    background-color: var(--button);
+    color:var(--white);
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 15px 30px 15px 30px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.05);
+    
+}
+.emailArea{
+    background-color: black;
+}
+    
+ .emailArea .email{
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 81rem;
+    margin: 50px auto;
+    z-index: 10;
     position: relative;
+}
+.emailArea .email h1{
+    font-size: 2.5rem;
+    font-weight:600;
+    transform: capitalize;
+    letter-spacing: 2px;
+    margin-top:50px;
+    margin-bottom: 30px;
+}
+.emailArea.email p{
+    font-weight: 200;
+    letter-spacing: 1.5px;
+    margin-bottom: 30px;
+}
+.emailArea .email form{
+    background-color: black;
+    color: white;
+    margin-bottom: 50px;
+    padding:0 50px;
+}
+.emailArea .email form #email{
+    font-size:1.2rem;
+    padding: 10px;
+
 }
