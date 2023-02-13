@@ -89,13 +89,13 @@ header .container{
     
 }
 .showcaseArea .left h1{
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     color: var(--darkOne);
     text-transform: capitalize;
     line-height: 1.4;
     min-width: 600px;
     font-family: 'Roboto Mono', monospace;
-    font-style:italic;
+    letter-spacing:1.4px;
 }
 .showcaseArea .left p{
     color:var(--darkTwo);
@@ -182,8 +182,8 @@ margin: 70px 0 0 70px;
     font-weight:600;
     transform: capitalize;
     letter-spacing: 2px;
-    margin-top:50px;
-    margin-bottom: 30px;
+    margin-top:20px;
+    margin-bottom: 20px;
 }
 .emailArea.email p{
     font-weight: 200;
@@ -191,10 +191,11 @@ margin: 70px 0 0 70px;
     margin-bottom: 30px;
 }
 .emailArea .email form{
-    margin-top: 50px;
-    padding:0 20px;
+    margin-top: 30px;
+    padding:0 10px;
     width: 40%;
     background-color: black;
+    display: flex;
 }
 .emailArea .email #email{
     position: relative;
@@ -206,6 +207,11 @@ margin: 70px 0 0 70px;
     outline: none;
     resize: none;
 }
-.emailArea .email{
-    g
+.emailArea .email #submit{
+    background-color: var(--darkTwo);
+    padding: 5px 20px;
+    margin-top: 20px;
+    color:var(--white);
+    font-size: 1.2rem;
+    margin: auto 10px;
 }
