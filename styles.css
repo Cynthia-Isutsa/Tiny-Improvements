@@ -216,9 +216,14 @@ margin: 70px 0 0 70px;
 .footer{
     display: flex;
     justify-content:space-around;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     line-height: 50px;
     margin-top: 20px;
     font-weight: 100;
-
+    color:black;
+    list-style: none;
+}
+footer .category ul{
+    olor:black;
+    list-style: none
 }
