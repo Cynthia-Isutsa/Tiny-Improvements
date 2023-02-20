@@ -10,7 +10,7 @@
     --background2:rgb(236, 235, 235);
 
 }
-*,*::before,*::after{
+*{
     padding:0;
     margin:0;
     box-sizing: border-box;
@@ -38,7 +38,6 @@ a{
 
 .container{
     max-width: 81rem;
-    margin: 0 auto;
     padding: 20px;
     z-index: 10;
     position: relative;
@@ -81,7 +80,7 @@ header .container{
 {
     background-image: url(./images/image7.jpg);
     background-size: 100% 100%;
-    height: 600px;
+    height: 480px;
 }
 .showcaseArea .left h1{
     font-size:1.8rem;
@@ -97,11 +96,11 @@ header .container{
 }
 .showcaseArea .left p{
     color:var(--darkTwo);
-    font-size: 1.1rem;
-    max-width: 600px;
-    line-height: 2.3;
+    font-size: 0.9rem;
+    line-height: 1.3;
     text-align: center;
     padding-left: 400px;
+    margin-top: 20px;
 
 }
 .showcaseArea .left .btn{
@@ -111,7 +110,6 @@ font-weight: 600;
 border-radius: 10px;
 padding: 12px;
 box-shadow: 0 0 2px rgba(0, 0, 0, 0.05);
-margin: 70px 0 0 70px;
 }
 
 .bar{
