@@ -20,17 +20,17 @@ body{
     
 }
 img{
-    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 a{
     text-decoration: none;
 }
 #big-wrapper{
-    padding: 50px 0 70px;
+    padding: 20px 0 70px;
     width: 100%;
     min-height: 100vh;
     overflow: hidden;
-    background-color: var(--background);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -39,9 +39,10 @@ a{
 .container{
     max-width: 81rem;
     margin: 0 auto;
-    padding: 1px 50px;
+    padding: 20px;
     z-index: 10;
     position: relative;
+    background-color: var(--background);
     
 }
 header .container{
@@ -76,33 +77,31 @@ header .container{
     margin-left: 4.5rem;
     display: inline-block;
 }
-.showcaseArea {
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    max-width: 81rem;
-    margin:20px auto;
-    padding: 0 50px;
-    z-index: 10;
-    position: relative;
-    
-    
+.showcaseArea
+{
+    background-image: url(./images/image7.jpg);
+    background-size: 100% 100%;
+    height: 600px;
 }
 .showcaseArea .left h1{
-    font-size: 2.2rem;
+    font-size:1.8rem;
     color: var(--darkOne);
     text-transform: capitalize;
     line-height: 1.4;
     min-width: 600px;
     font-family: 'Roboto Mono', monospace;
     letter-spacing:1.4px;
+    margin-top: 50px;
+    text-align:center;
+    padding-left: 400px;
 }
 .showcaseArea .left p{
     color:var(--darkTwo);
-    font-size: 1.4rem;
-    margin: 1.9rem 0 2.5rem;
+    font-size: 1.1rem;
     max-width: 600px;
     line-height: 2.3;
+    text-align: center;
+    padding-left: 400px;
 
 }
 .showcaseArea .left .btn{
@@ -224,6 +223,6 @@ margin: 70px 0 0 70px;
     list-style: none;
 }
 footer .category ul{
-    olor:black;
+    color:black;
     list-style: none
 }
