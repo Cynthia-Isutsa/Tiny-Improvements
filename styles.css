@@ -37,7 +37,6 @@ a{
 }
 
 .container{
-    max-width: 81rem;
     padding: 20px;
     z-index: 10;
     position: relative;
@@ -78,47 +77,45 @@ header .container{
 }
 .showcaseArea
 {
-    background-image: url(./images/image7.jpg);
+    background-image: url(./images/bg1.jpg);
     background-size: 100% 100%;
-    height: 480px;
+    height: 600px;
+    display: flex;
+    padding-left: 70px;
 }
 .showcaseArea .left h1{
-    font-size:1.8rem;
+    font-size:2.5rem;
+    font-weight: 900;
     color: var(--darkOne);
-    text-transform: capitalize;
-    line-height: 1.4;
+    line-height: 1.5;
     min-width: 600px;
-    font-family: 'Roboto Mono', monospace;
     letter-spacing:1.4px;
-    margin-top: 50px;
-    text-align:center;
-    padding-left: 400px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+
 }
 .showcaseArea .left p{
-    color:var(--darkTwo);
-    font-size: 0.9rem;
-    line-height: 1.3;
-    text-align: center;
-    padding-left: 400px;
-    margin-top: 20px;
+    color: var(--background);
+    font-size: 1rem;
+    line-height: 1.1;
+    font-weight: 500;
+    margin-bottom: 70px;
 
 }
 .showcaseArea .left .btn{
 background-color: var(--button);
-color:var(--white);
+color:var(--background);
 font-weight: 600;
 border-radius: 10px;
-padding: 12px;
+padding: 10px 30px;
 box-shadow: 0 0 2px rgba(0, 0, 0, 0.05);
 }
 
 .bar{
-    border:1px solid var(--white);
-    padding: 15px;
+    border:1px solid var(--background1);
+    padding: 25px;
     background-color: var(--background1);
     
-    
-
 }
 .bar p{
     font-size: 2.5rem;
@@ -213,14 +210,13 @@ box-shadow: 0 0 2px rgba(0, 0, 0, 0.05);
 .footer{
     display: flex;
     justify-content:space-around;
-    font-size: 0.9rem;
-    line-height: 50px;
-    margin-top: 20px;
-    font-weight: 100;
-    color:black;
-    list-style: none;
+    font-size: 0.7rem;
+    line-height: 30px;
+    margin-top: 5px;
 }
-footer .category ul{
+.footer .category ul li{
+    list-style-type: none;
+}
+.footer .category ul li a{
     color:black;
-    list-style: none
 }
