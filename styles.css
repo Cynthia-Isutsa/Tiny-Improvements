@@ -5,7 +5,7 @@
     --darkTwo:#3f3939;
     --lightOne: rgb(143, 134, 134);
     --button: rgb(216, 34, 34);
-    --hover: #363d41;
+    --hover: #7c8083;
     --white:#ffffff;
     --background2:rgb(236, 235, 235);
 
@@ -46,7 +46,7 @@ a{
 header .container{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:flex-end;
 
 }
 .title{
@@ -55,7 +55,7 @@ header .container{
     font-family: 'Roboto Mono', monospace;
     font-size: 1.4rem;
     font-weight: 200;
-    font-style: italic;
+
 }
    
 .links a:hover{
@@ -68,7 +68,8 @@ header .container{
 .links ul{
     display:flex;
     list-style: none;
-    align-items: center;
+    align-items:end;
+    padding-left: 450px;
     font-size: 0.9rem;
     color: var(--darkOne);
 }
@@ -112,7 +113,7 @@ font-weight: 600;
 border-radius: 10px;
 padding: 10px 30px;
 box-shadow: 0 0 2px rgba(0, 0, 0, 0.05);
-margin-left: 150px;
+margin-left: 80px;
 }
 
 .bar{
@@ -202,6 +203,7 @@ margin-left: 150px;
     border-bottom: 1px solid #333;
     outline: none;
     resize: none;
+    padding-left: 10px;
 }
 .emailArea .email #submit{
     background-color: var(--darkTwo);
@@ -223,4 +225,10 @@ margin-left: 150px;
 }
 .footer .category ul li a{
     color:black;
+}
+.footer .category a:hover{
+color: var(--hover);
+transform: scale(1.05);
+transition: 0.3s;
+
 }
